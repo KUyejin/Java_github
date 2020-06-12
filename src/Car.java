@@ -2,7 +2,7 @@
 public class Car {
 
 	public static void main(String[] args) {
-		//소스코드바꿈
+		System.out.println("테스트 중입니다");
 
 	}
 
