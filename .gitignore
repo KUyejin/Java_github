@@ -1,1 +1,140 @@
-/bin/
+* .iml
+local.properties
+
+# Gradle :
+.idea / ** / gradle.xml
+.idea / ** / 라이브러리
+
+# CMake
+cmake-build-debug /
+
+# 몽고 탐색기 플러그인 :
+# 디렉토리 #
+/ 빌드 /
+/ 빈 /
+대상 /
+.생각
+수업 /
+메타 -INF /
+  
+# OS 파일 #
+.DS_Store
+  
+* 클래스
+  
+# 패키지 파일 #
+* .jar
+* .war
+*. 귀
+* .db
+  
+# #####################
+# 윈도우
+# #####################
+  
+# Windows 이미지 파일 캐시
+Thumbs.db 
+  
+# 폴더 설정 파일
+Desktop.ini
+  
+# #####################
+# OSX
+# #####################
+  
+.DS_Store
+.svn
+  
+# 썸네일
+._ *
+  
+# 외부 디스크에 나타날 수있는 파일
+스포트라이트 -V100
+휴지통
+  
+  
+# #####################
+# 이클립스
+# #####################
+  
+* .pydevproject
+.계획
+.metadata
+빈 / **
+tmp / **
+tmp / ** / *
+* .tmp
+* .bak
+* .swp
+* ~ .nib
+.classpath
+설정 /
+.loadpath
+/ src / 메인 / 리소스 / rebel.xml
+# 외부 툴 빌더
+.externalToolBuilders /
+  
+# 로컬로 저장된 "Eclipse launch configuration"
+*. 시작
+  
+# CDT 특정
+.cproject
+  
+# PDT 특정
+.buildpath
+
+# https://www.gitignore.io/api/intellij 제작
+
+# ## Intellij ###
+# JetBrains IDE : IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio 및 Webstorm 지원
+# 참조 : https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# 사용자 별 항목 :
+.idea / ** / workspace.xml
+.idea / ** / tasks.xml
+.idea / 사전
+
+# 민감하거나 높은 이탈 파일 :
+.idea / ** / dataSources /
+.idea / ** / dataSources.ids
+.idea / ** / dataSources.xml
+.idea / ** / dataSources.local.xml
+.idea / ** / sqlDataSources.xml
+.idea / ** / dynamic.xml
+.idea / ** / uiDesigner.xml
+
+.idea / ** / mongoSettings.xml
+
+# # 파일 기반 프로젝트 형식 :
+* .iws
+
+# # 플러그인 특정 파일 :
+
+# IntelliJ
+/ 아웃 /
+
+# mpeltonen / sbt-idea 플러그인
+.idea_modules /
+
+# JIRA 플러그인
+atlassian-ide-plugin.xml
+
+# 필기체 Clojure 플러그인
+.idea / replstate.xml
+
+# Crashlytics 플러그인 (Android Studio 및 IntelliJ 용)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# ## Intellij 패치 ###
+# 댓글 이유 : https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# * .iml
+# modules.xml
+# .idea / misc.xml
+# * .ipr
+
+# Sonarlint 플러그인
+.idea / sonarlint
